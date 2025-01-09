@@ -1,5 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 /*font-family: "Work Sans", serif;*/
+*{
+    margin: 0;
+    padding: 0;
+}
 #hero {
     background-color: aqua;
+    background-image: url(../assets/hero-bg.png);
+    background: linear-gradient(180.00deg, rgb(9, 9, 9) 2.884%,rgba(16, 16, 16, 0) 101.034%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 615px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+#hero .hero-content {
+    width: 818px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#hero .hero-content .subtitle{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+}
+#hero .hero-content .title {
+    color: rgb(255,255, 255);
+    font-family: work Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+#hero .hero-content .description{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
 }
